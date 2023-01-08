@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    background-image: url(images/bg.jpg);
+}
+.section1 {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    background-image: url(images/bgsec1.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 4%;
+    margin-top: 3%;
+}
+.section1 > .header {
+    display: flex;
+    border: 3px solid white;
+    margin-left: 5%;
+    font-size: xx-large;
+    padding: 1%;
+    margin-top: 3%;
+    color: yellow;
+}
+.section1 > .about {
+    display: flex;
+    font-size: xx-large;
+    margin-top: 4.1%;
+    margin-left: 67%;
+}
+.section2 {
+    color: white;
+    position: relative;
+    background-image: url(images/bgsec1.jpg);
+    padding-bottom: 13.59%;
+}
+.cheetah2 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 62.55%;
+}
+.section2 > .heading {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin-left: 5%;
+    font-size:x-large;
+    padding-top: 7%;
+    margin-top: 3%;
+}
+.section2 > .subheading {
+    position: relative;
+    z-index: 1;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 40%;
+    font-size: large;
+}
+.section3 {
+    color: white;
+    background-image: url(images/bgsec1.jpg);
+    padding-bottom: 5%;
+}
+.section3 > .sec3head {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+.ch2 {
+    margin-left: 1%;
+    color: yellow;
+}
+.section3 > .Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 5px solid white;
+}
+.section3 > .names {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 6%;
+    justify-content:space-around;
+    margin-top: 2%;
+    color: yellow;
+}
+.section3 > .note {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.section4 {
+    color: white;
+    background-image: url(images/bgsec1.jpg);
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+.section4 > .quote {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 5%;
+}
+.section4 > .auth {
+    font-size: x-large;
+    margin-left: 68%;
+    margin-top: 5%;
+}
+.section5 {
+    color: white;
+    background-image: url(images/bgsec1.jpg);
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    position: relative;
+}
+.section5 > .text1 {
+    font-size: x-large;
+    position: relative;
+    z-index: 1;
+}
+.section5 > .sign {
+    position: absolute;
+    z-index: 2;
+    font-size: x-large;
+    color: white;
+    background-color: #3882f6;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3%;
+    border: 2px solid #3882f6;
+}
+.section6 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 3%;
+}
+
+
+
