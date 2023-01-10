@@ -116,26 +116,22 @@ body {
     background-image: url(images/bgsec1.jpg);
     margin-top: 3%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     padding-top: 3%;
     padding-bottom: 8%;
-    position: relative;
 }
 .section5 > .text1 {
     font-size: x-large;
-    position: relative;
-    z-index: 1;
 }
-.section5 > .sign {
-    position: absolute;
-    z-index: 2;
-    font-size: x-large;
+.section5 > .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3882F6;
     color: white;
-    background-color: #3882f6;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-top: 3%;
-    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin-top: 5%;
+    font-size: x-large;
 }
 .section6 {
     display: flex;
